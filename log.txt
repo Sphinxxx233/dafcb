@@ -1,0 +1,6 @@
+nohup: ignoring input
+/home/yyz/.conda/envs/Hunyuan3D-Part/lib/python3.10/site-packages/torchvision/datasets/mnist.py:143: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  img = Image.fromarray(img.numpy(), mode="L")
+/tmp/tmph_bhi711: line 3: 2789258 Killed                  python run_online_learning.py
+
+ERROR conda.cli.main_run:execute(127): `conda run python run_online_learning.py` failed. (See above for error)
