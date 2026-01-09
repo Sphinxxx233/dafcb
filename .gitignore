@@ -1,14 +1,95 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual env
+# Virtual Environment
 .venv/
+venv/
+ENV/
+env/
 
-# Data / output
+# Datasets
 data/
-output/
+data_fashion/
+dataset/
 
-# OS / IDE
+# Output and Results
+accuary/
+output/
+results/
+
+# Model files
+*.pth
+*.pkl
+*.pt
+*.ckpt
+*.safetensors
+
+# Images and Plots
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# CSV files (logs and metrics)
+*.csv
+!requirements.csv
+
+# Log files
+*.txt
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Tmux
+tmux-session-*
+
+# Conda environment files (optional)
+# environment.yml
+# conda-lock.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
